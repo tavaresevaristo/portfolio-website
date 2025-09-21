@@ -51,11 +51,16 @@
 
 @utility container-lg {
   width: 100%;
-  padding-inline: 6rem;
+  padding-inline: 1rem;
+  /* padrão mobile */
 
-  /* telas grandes (2xl = 1536px) */
+  @variant lg {
+    padding-inline: 6rem;
+    /* telas >= 1024px */
+  }
+
   @variant 2xl {
     max-width: 96rem;
-    /* 1536px */
+    /* telas >= 1536px */
   }
 }

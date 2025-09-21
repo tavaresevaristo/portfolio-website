@@ -5,7 +5,7 @@ import { MenuIcon } from "@/components/atoms/icons/menu";
 export function Navbar() {
   return (
     <nav className="w-full bg-foreground shadow-md z-50 font-mono">
-      <div className="px-6 lg:container-lg mx-auto py-4 flex items-center gap-3 justify-between">
+      <div className="container-lg mx-auto py-4 flex items-center gap-3 justify-between">
         <Logo />
 
         <ul className="hidden lg:flex space-x-8 text-gray-700 font-medium">

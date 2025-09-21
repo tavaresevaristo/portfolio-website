@@ -8,8 +8,8 @@ export function Footer() {
   return (
     <footer className="w-full bg-black font-sans text-sm text-gray-300">
       <div
-        className="flex flex-col gap-10 items-center py-12 px-6
-                  lg:container-lg lg:flex-row lg:justify-between lg:gap-10 mx-auto "
+        className="container-lg flex flex-col gap-10 items-center py-12
+                  lg:flex-row lg:justify-between lg:gap-10 mx-auto "
       >
         {/* logo + socials */}
         <div className="flex flex-col gap-8 lg:gap-5 items-center lg:items-start max-w-xs text-xs">
@@ -46,7 +46,7 @@ export function Footer() {
         </div>
 
         {/* links */}
-        <div className="flex items-center justify-center space-y-4 gap-4 flex-wrap lg:gap-12">
+        <div className="flex items-center justify-center gap-4 gap-y-14 flex-wrap lg:gap-12">
           {Object.entries(FOOTER_LINKS).map(([section, links]) => (
             <div key={section} className="min-w-[120px]">
               <h4 className="font-mono font-semibold text-white mb-6">
