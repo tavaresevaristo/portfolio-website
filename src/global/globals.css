@@ -5,7 +5,7 @@
   --color-background: #0a0a0a;
   --color-foreground: #ffff;
 
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
@@ -23,8 +23,8 @@
   #__next {
     @apply min-h-screen w-full overflow-x-hidden;
     font-family: var(--font-sans);
-    background: var(--color-background);
-    color: var(--color-foreground);
+    background: var(--color-foreground);
+    color: var(--color-background);
   }
 
   body {
@@ -55,6 +55,7 @@
 
   /* telas grandes (2xl = 1536px) */
   @variant 2xl {
-    max-width: 96rem; /* 1536px */
+    max-width: 96rem;
+    /* 1536px */
   }
 }

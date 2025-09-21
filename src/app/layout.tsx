@@ -1,6 +1,7 @@
 import "../global/globals.css";
+import { fonts } from "@/fonts";
 import type { Metadata, Viewport } from "next";
-import { geistMono, geistSans } from "@/fonts";
+import { Orchestrator } from "@/components/layout/orchestrator";
 
 export const metadata: Metadata = {
   title: "Tavares Evaristo - Personal Webapp",
@@ -21,14 +22,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const fonts = `${geistSans.variable} ${geistMono.variable}`;
-
   return (
     <html lang="pt-PT" suppressHydrationWarning>
       <body
         className={`${fonts} antialiased min-h-screen w-full overflow-hidden`}
       >
-        <main>{children}</main>
+        <Orchestrator>{children}</Orchestrator>
       </body>
     </html>
   );
