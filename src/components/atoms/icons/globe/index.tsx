@@ -3,7 +3,7 @@ export const GlobeIcon = (props: React.SVGProps<SVGSVGElement>) => (
     viewBox="0 0 24 24"
     width={16}
     height={16}
-    color={"#000000"}
+    color={"currentColor"}
     fill={"none"}
     {...props}
   >

@@ -26,7 +26,7 @@ export function Navbar() {
           href="#contact"
           className="hidden lg:block text-sm text-white bg-black font-medium px-4 py-3 rounded-xl hover:scale-105 transition-transform duration-300"
         >
-        {"Let's Talk"}
+          {"Let's Talk"}
         </a>
 
         <button className="lg:hidden flex items-center">

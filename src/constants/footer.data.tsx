@@ -1,8 +1,35 @@
+import { GlobeIcon } from "@/components/atoms/icons/globe";
+import { GithubIcon } from "@/components/atoms/icons/github";
+import { DiscordIcon } from "@/components/atoms/icons/discord";
+import { LinkedInIcon } from "@/components/atoms/icons/linkedin";
+import { InstagramIcon } from "@/components/atoms/icons/instagram";
+
 export const FOOTER_SOCIALS = [
-  { icon: "🌐", href: "https://tavares-evaristo.vercel.app/" },
-  { icon: "💼", href: "https://www.linkedin.com/in/tavares-evaristo/" },
-  { icon: "🐙", href: "https://github.com/tavaresevaristo" },
-  { icon: "📸", href: "https://www.instagram.com/tavares_evaristo/" },
+  {
+    name: "My Personal website",
+    icon: <GlobeIcon width={22} height={22} />,
+    href: "https://tavares-evaristo.vercel.app/",
+  },
+  {
+    name: "Follow me on LinkedIn",
+    icon: <LinkedInIcon />,
+    href: "https://www.linkedin.com/in/tavares-evaristo/",
+  },
+  {
+    name: "Follow me on Discord App",
+    icon: <DiscordIcon />,
+    href: "https://discord.com/users/1070120884288880640",
+  },
+  {
+    name: "Show my projects on GitHub",
+    icon: <GithubIcon />,
+    href: "https://github.com/tavaresevaristo",
+  },
+  {
+    name: "Follow me on Intagram",
+    icon: <InstagramIcon />,
+    href: "https://www.instagram.com/tavares_evaristo/",
+  },
 ];
 
 export const FOOTER_LINKS = {
@@ -27,7 +54,6 @@ export const FOOTER_LINKS = {
     { label: "Privacy", href: "/privacy" },
   ],
 };
-
 
 // export const FOOTER_LINKS = {
 //   Sobre: [

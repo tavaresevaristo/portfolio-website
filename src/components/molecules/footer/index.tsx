@@ -6,42 +6,50 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="w-full border-t bg-white font-sans text-sm text-gray-800">
+    <footer className="w-full bg-black font-sans text-sm text-gray-300">
       <div
-        className="container-lg mx-auto py-12 flex flex-col 
-                  md:flex-row md:justify-between md:gap-10"
+        className="flex flex-col gap-10 lg:gap-5 px-8 py-12  lg:container-lg
+                  lg:flex-row lg:justify-between lg:gap-10 mx-auto "
       >
         {/* logo + socials */}
-        <div className="space-y-4 max-w-xs text-xs">
+        <div className="flex flex-col gap-8 lg:gap-5 items-center lg:items-start max-w-xs text-xs">
           <Logo />
-          <div className="flex gap-1 text-xl">
+          <div className="flex gap-2 text-xl items-center justify-center">
             {FOOTER_SOCIALS.map(({ icon, href }) => (
               <a
                 key={href}
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="py-1 px-2 rounded hover:bg-gray-100 transition-transform"
+                className="
+                  py-2 px-2 rounded-lg
+                  text-gray-300 hover:text-black
+                  hover:bg-white
+                  shadow-md hover:shadow-lg
+                  transform hover:scale-105 active:scale-95
+                  transition-all duration-300 ease-out
+                "
               >
                 {icon}
               </a>
             ))}
           </div>
+
           <div
             className="flex items-center gap-2 border px-3 py-2 rounded-md select-none
-                      w-fit cursor-pointer hover:bg-gray-100 hover:cursor-not-allowed"
+                      w-fit cursor-pointer hover:cursor-not-allowed"
           >
             <GlobeIcon />
             <span>English (EN)</span>
           </div>
-          <div>© {currentYear} Tavares Evaristo. All rights reserved.</div>
+          <div>©{currentYear} Tavares Evaristo. All rights reserved.</div>
         </div>
 
         {/* links */}
-        <div className="flex flex-wrap gap-8 md:gap-12">
+        <div className="flex items-center justify-center flex-wrap gap-8 lg:gap-12">
           {Object.entries(FOOTER_LINKS).map(([section, links]) => (
             <div key={section} className="min-w-[120px]">
-              <h4 className="font-mono font-semibold text-gray-900 mb-6">
+              <h4 className="font-mono font-semibold text-white mb-6">
                 {section}
               </h4>
               <ul className="space-y-2">
