@@ -1,4 +1,4 @@
-import { Logo } from "@/components/atoms/icons/logo";
+import { LogoType } from "@/components/atoms/logo-type";
 import { GlobeIcon } from "@/components/atoms/icons/globe";
 import { FOOTER_LINKS, FOOTER_SOCIALS } from "@/constants/footer.data";
 
@@ -12,7 +12,7 @@ export function Footer() {
                   lg:flex-row lg:justify-between lg:gap-10 mx-auto "
       >
         <div className="flex flex-col gap-8 lg:gap-5 items-center lg:items-start max-w-xs text-xs">
-          <Logo />
+          <LogoType />
           <div className="flex gap-2 text-xl items-center justify-center">
             {FOOTER_SOCIALS.map(({ icon, href }) => (
               <a
