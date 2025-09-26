@@ -41,7 +41,7 @@ export function Navbar() {
           href="#contact"
           className="hidden lg:block text-white bg-black 
           font-medium px-4 py-3 rounded-xl hover:scale-105 
-          transition-transform duration-300"
+          transition-transform duration-300 text-xs"
         >
           {"Let's Talk"}
         </a>

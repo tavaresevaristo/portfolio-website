@@ -1,9 +1,9 @@
-import { HeroSection } from "@/components/molecules/hero-section";
+import { LandingHeroSection } from "@/components/molecules/landing-hero-section";
 
 export default function Home() {
   return (
     <div>
-      <HeroSection />
+      <LandingHeroSection />
     </div>
   );
 }
