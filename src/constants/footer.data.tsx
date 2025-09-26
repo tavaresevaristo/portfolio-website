@@ -1,8 +1,8 @@
-import { GithubIcon } from "@/components/atoms/icons/github";
-import { DiscordIcon } from "@/components/atoms/icons/discord";
-import { InstagramIcon } from "@/components/atoms/icons/instagram";
-import { NewTwitterIcon } from "@/components/atoms/icons/new-twitter";
-import { LinkedinIcon } from "@/components/atoms/icons/linkedin";
+import { GithubIcon } from "@/components/atoms/icons/social/github";
+import { DiscordIcon } from "@/components/atoms/icons/social/discord";
+import { InstagramIcon } from "@/components/atoms/icons/social/instagram";
+import { NewTwitterIcon } from "@/components/atoms/icons/social/new-twitter";
+import { LinkedinIcon } from "@/components/atoms/icons/social/linkedin";
 
 export const FOOTER_SOCIALS = [
   {

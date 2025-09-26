@@ -1,8 +1,16 @@
+"use client";
+import { useState } from "react";
 import { Logo } from "@/components/atoms/icons/logo";
 import { EN_NAV_LINKS } from "@/constants/navbar.data";
 import { MenuIcon } from "@/components/atoms/icons/menu";
+import { SidebarMobile } from "../sidebar-mobile";
 
 export function Navbar() {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const toggleSidebar = () => setIsOpen((prev) => !prev);
+  const closeSidebar = () => setIsOpen(false);
+
   return (
     <nav className="w-full bg-foreground shadow-md z-50 font-mono text-sm">
       <div
@@ -38,10 +46,11 @@ export function Navbar() {
           {"Let's Talk"}
         </a>
 
-        <button className="lg:hidden flex items-center">
+        <button onClick={toggleSidebar} className="lg:hidden flex items-center">
           <MenuIcon />
         </button>
       </div>
+      <SidebarMobile isOpen={isOpen} onClose={closeSidebar} />
     </nav>
   );
 }

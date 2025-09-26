@@ -1,5 +1,5 @@
 import { LogoType } from "@/components/atoms/logo-type";
-import { GlobeIcon } from "@/components/atoms/icons/globe";
+import { GlobeIcon } from "@/components/atoms/icons/social/globe";
 import { FOOTER_LINKS, FOOTER_SOCIALS } from "@/constants/footer.data";
 
 export function Footer() {
