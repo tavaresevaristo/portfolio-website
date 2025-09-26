@@ -11,7 +11,6 @@ export function Footer() {
         className="container-lg flex flex-col gap-10 items-center py-12
                   lg:flex-row lg:justify-between lg:gap-10 mx-auto "
       >
-        {/* logo + socials */}
         <div className="flex flex-col gap-8 lg:gap-5 items-center lg:items-start max-w-xs text-xs">
           <Logo />
           <div className="flex gap-2 text-xl items-center justify-center">
@@ -45,7 +44,6 @@ export function Footer() {
           <div>©{currentYear} Tavares Evaristo. All rights reserved.</div>
         </div>
 
-        {/* links */}
         <div className="flex items-center justify-center gap-4 gap-y-14 flex-wrap lg:gap-12">
           {Object.entries(FOOTER_LINKS).map(([section, links]) => (
             <div key={section} className="min-w-[120px]">

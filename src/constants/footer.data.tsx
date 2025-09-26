@@ -1,29 +1,29 @@
-import { GlobeIcon } from "@/components/atoms/icons/globe";
 import { GithubIcon } from "@/components/atoms/icons/github";
 import { DiscordIcon } from "@/components/atoms/icons/discord";
-import { LinkedInIcon } from "@/components/atoms/icons/linkedin";
 import { InstagramIcon } from "@/components/atoms/icons/instagram";
+import { NewTwitterIcon } from "@/components/atoms/icons/new-twitter";
+import { LinkedinIcon } from "@/components/atoms/icons/linkedin";
 
 export const FOOTER_SOCIALS = [
   {
-    name: "My Personal website",
-    icon: <GlobeIcon width={22} height={22} />,
-    href: "https://tavares-evaristo.vercel.app/",
-  },
-  {
     name: "Follow me on LinkedIn",
-    icon: <LinkedInIcon />,
+    icon: <LinkedinIcon />,
     href: "https://www.linkedin.com/in/tavares-evaristo/",
-  },
-  {
-    name: "Follow me on Discord App",
-    icon: <DiscordIcon />,
-    href: "https://discord.com/users/1070120884288880640",
   },
   {
     name: "Show my projects on GitHub",
     icon: <GithubIcon />,
     href: "https://github.com/tavaresevaristo",
+  },
+  {
+    name: "Follow me on Twitter",
+    icon: <NewTwitterIcon />,
+    href: "https://x.com/tavares_evarsto",
+  },
+  {
+    name: "Follow me on Discord App",
+    icon: <DiscordIcon />,
+    href: "https://discord.com/users/1070120884288880640",
   },
   {
     name: "Follow me on Intagram",
