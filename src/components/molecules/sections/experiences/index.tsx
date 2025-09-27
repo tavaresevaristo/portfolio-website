@@ -20,7 +20,7 @@ export const ExperienceLinkedIn = () => {
             </div>
             <div className="max-w-3xl">
               <h3 className="font-mono font-bold text-lg">{exp.role}</h3>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-600 text-xs lg:text-sm">
                 {exp.company} · {exp.period} · {exp.location}
               </p>
               <p className="text-gray-700 mt-2 text-xs lg:text-sm text-start lg:text-justify">

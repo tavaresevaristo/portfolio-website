@@ -2,7 +2,7 @@ export const AboutSection = () => {
   return (
     <section
       id="about"
-      className="container mx-auto mt-20 mb-40 px-6
+      className="container mx-auto mt-20 mb-15 px-6
                 max-w-3xl text-center lg:text-left"
     >
       <h2 className="text-2xl lg:text-3xl font-bold lg:font-extrabold font-mono text-gray-900 mb-6">
