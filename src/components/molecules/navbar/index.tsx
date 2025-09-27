@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
+import { SidebarMobile } from "../sidebar-mobile";
 import { Logo } from "@/components/atoms/icons/logo";
 import { EN_NAV_LINKS } from "@/constants/navbar.data";
 import { MenuIcon } from "@/components/atoms/icons/menu";
-import { SidebarMobile } from "../sidebar-mobile";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -24,7 +24,7 @@ export function Navbar() {
             <li key={href} className="relative group">
               <a
                 href={href}
-                className="transition-colors duration-300 hover:text-black"
+                className="transition-colors duration-300 hover:text-black uppercase text-xs"
               >
                 {label}
                 <span
@@ -43,7 +43,7 @@ export function Navbar() {
           font-medium px-4 py-3 rounded-xl hover:scale-105 
           transition-transform duration-300 text-xs"
         >
-          {"Let's Talk"}
+          {"Get in Touch"}
         </a>
 
         <button onClick={toggleSidebar} className="lg:hidden flex items-center">

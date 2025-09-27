@@ -4,7 +4,7 @@ import type { Metadata, Viewport } from "next";
 import { Orchestrator } from "@/components/layout/orchestrator";
 
 export const metadata: Metadata = {
-  title: "Tavares Evaristo - Personal Webapp",
+  title: "Tavares Evaristo - My Website",
   icons: "/favicon",
   description:
     "Portfolio website to showcase my projects, skills and career path.",
