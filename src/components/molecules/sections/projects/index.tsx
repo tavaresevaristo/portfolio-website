@@ -3,7 +3,7 @@ import Image from "next/image";
 export const ProjectsSection = () => {
   return (
     <section id="projects" className="container mx-auto my-20 px-6">
-      <h2 className="text-3xl font-bold lg:font-extrabold font-mono text-center mb-12">
+      <h2 className="text-2xl lg:text-3xl font-bold lg:font-extrabold font-mono text-center mb-12">
         {/* Featured Projects */}
         {"What I've been doing"}
       </h2>
@@ -40,7 +40,7 @@ export const ProjectsSection = () => {
           {["Mobile Banking App", "Analytics Dashboard"].map((title, i) => (
             <div key={i} className="rounded-lg shadow bg-white p-4">
               <h4 className="font-mono font-bold text-lg mb-2">{title}</h4>
-              <p className="text-gray-600 text-sm">
+              <p className="text-gray-700 text-sans text-sm">
                 Short description about this project and its main features.
               </p>
               <a

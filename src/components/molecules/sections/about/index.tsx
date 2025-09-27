@@ -5,7 +5,7 @@ export const AboutSection = () => {
       className="container mx-auto mt-20 mb-40 px-6
                 max-w-3xl text-center lg:text-left"
     >
-      <h2 className="text-3xl font-bold lg:font-extrabold font-mono text-gray-900 mb-6">
+      <h2 className="text-2xl lg:text-3xl font-bold lg:font-extrabold font-mono text-gray-900 mb-6">
         About Me
       </h2>
       <p className="text-gray-700 text-sm leading-relaxed mb-6 font-sans">

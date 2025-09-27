@@ -28,7 +28,7 @@ import {
 export const SkillsTimeline = () => {
   return (
     <section id="skills" className="container mx-auto my-20 px-6 max-w-4xl">
-      <h2 className="text-3xl font-bold lg:font-extrabold font-mono text-center mb-10">
+      <h2 className="text-2xl lg:text-3xl font-bold lg:font-extrabold font-mono text-center mb-10">
         Skills Growth
       </h2>
 

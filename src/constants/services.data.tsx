@@ -3,27 +3,27 @@ import { FaReact, FaDocker, FaHandsHelping } from "react-icons/fa";
 
 export const myServices = [
   {
-    title: "Consultoria & Mentoria",
+    title: "Consulting & Mentorship",
     description:
-      "Mentoring, code review e orientação estratégica para times ou devs individuais.",
+      "Mentoring, code reviews, and strategic guidance for teams or individual developers.",
     icon: <FaHandsHelping className="text-black text-3xl" />,
   },
   {
-    title: "Desenvolvimento Web",
+    title: "Web Development",
     description:
-      "Front & backend, novos projetos ou manutenção de sistemas já existentes.",
+      "Frontend & backend solutions, from new projects to legacy system maintenance.",
     icon: <FaReact className="text-sky-500 text-3xl" />,
   },
   {
-    title: "Aplicações Mobile",
+    title: "Mobile Applications",
     description:
-      "Apps iOS/Android com React Native e Expo, integração com APIs e recursos nativos.",
+      "iOS and Android apps with React Native and Expo, integrating APIs and native features.",
     icon: <SiExpo className="text-black text-3xl" />,
   },
   {
-    title: "Infraestrutura & Manutenção",
+    title: "Infrastructure & Maintenance",
     description:
-      "Deploys, Docker, CI/CD, Ansible, monitoramento e suporte contínuo.",
+      "Deployments, Docker, CI/CD, Ansible, monitoring, and ongoing technical support.",
     icon: <FaDocker className="text-blue-500 text-3xl" />,
   },
 ];

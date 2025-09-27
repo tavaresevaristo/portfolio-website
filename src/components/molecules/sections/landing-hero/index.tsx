@@ -13,7 +13,7 @@ export const LandingHeroSection = () => {
       >
         <p
           className="text-xs text-gray-800 font-medium
-            uppercase tracking-widest font-moo"
+            uppercase tracking-widest"
         >
           Senior Software Engineer
         </p>
@@ -35,7 +35,7 @@ export const LandingHeroSection = () => {
       </div>
 
       <div
-        className="w-40 h-40 lg:w-56 lg:h-56 rounded-full 
+        className="w-32 h-32 lg:w-56 lg:h-56 rounded-full 
               overflow-hidden shadow-xl"
       >
         <Image

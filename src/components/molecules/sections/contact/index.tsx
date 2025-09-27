@@ -3,7 +3,7 @@ import { contactMe } from "@/constants/contact.data";
 export const ContactGrid = () => {
   return (
     <section id="contact" className="container mx-auto px-6 py-20 max-w-6xl">
-      <h2 className="text-3xl font-bold lg:font-extrabold font-mono text-center mb-12">
+      <h2 className="text-2xl lg:text-3xl font-bold lg:font-extrabold font-mono text-center mb-12">
         Get in Touch
       </h2>
       <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
