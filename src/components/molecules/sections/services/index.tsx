@@ -1,4 +1,5 @@
 import { myServices } from "@/constants/services.data";
+import { ServicesCard } from "@/components/atoms/services-card";
 
 export const ServicesList = () => {
   return (
@@ -8,13 +9,7 @@ export const ServicesList = () => {
       </h2>
       <div className="space-y-8">
         {myServices.map((service, i) => (
-          <div key={i} className="flex items-start gap-4">
-            <div className="mt-1">{service.icon}</div>
-            <div>
-              <h3 className="font-mono font-bold text-lg">{service.title}</h3>
-              <p className="font-sans text-gray-700 text-sm">{service.description}</p>
-            </div>
-          </div>
+          <ServicesCard key={i} item={service} />
         ))}
       </div>
     </section>
